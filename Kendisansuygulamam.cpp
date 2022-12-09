@@ -34,7 +34,7 @@ int main(){
 	}
 	else if(secim==4){
 		
-	printf("\nUygulamaya hosgeldiniz oyunumuzun ucretien az  5 tl \n%d tl hesabinizdan cekimistir ...");
+	printf("\nUygulamaya hosgeldiniz oyunumuzun ucretien az  5 tl ...");
 		
 	printf("\nOynamak istedginiz tutari giriniz:");
 	scanf("\n %d", &kb);
@@ -46,7 +46,7 @@ int main(){
 		
 		
 		bk=bk-kb;
-		printf("\n1 ile 100 arasinda sansli hissettiginiz bir sayýyý griniz");
+		printf("\n1 ile 100 arasinda sansli hissettiginiz bir sayÄ±yÄ± griniz");
 		scanf("\n %d", &gs);
 		if(gs>0 && gs<101){
 			srand(time(NULL));
@@ -80,7 +80,7 @@ int main(){
 		
 		
 		bk=bk-kb;
-		printf("\n1 ile 10 arasinda sansli hissettiginiz bir sayýyý griniz");
+		printf("\n1 ile 10 arasinda sansli hissettiginiz bir sayÄ±yÄ± griniz");
 		scanf("\n %d", &gs);
 		if(gs>0 && gs<11){
 			srand(time(NULL));
